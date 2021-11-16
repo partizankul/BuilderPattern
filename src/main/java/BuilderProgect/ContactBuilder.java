@@ -1,3 +1,5 @@
+package BuilderProgect;
+
 public class ContactBuilder {
 
         private String name;
@@ -34,19 +36,15 @@ public class ContactBuilder {
         public String getName() {
             return name;
         }
-
         public String getSurname() {
             return surname;
         }
-
         public String getMail() {
             return mail;
         }
-
         public String getPhone() {
             return phone;
         }
-
         public String getAddress() {
             return address;
         }

@@ -1,3 +1,6 @@
+package BuilderProgect;
+
+
 public class Contact {
     private final String name;
     private final String surname;
@@ -6,11 +9,11 @@ public class Contact {
     private final String address;
 
     Contact(final ContactBuilder contactBuilder){
-     this.name = contactBuilder.getName();
-     this.surname = contactBuilder.getSurname();
-     this.mail = contactBuilder.getMail();
-     this.phone = contactBuilder.getPhone();
-     this.address = contactBuilder.getAddress();
+        this.name = contactBuilder.getName();
+        this.surname = contactBuilder.getSurname();
+        this.mail = contactBuilder.getMail();
+        this.phone = contactBuilder.getPhone();
+        this.address = contactBuilder.getAddress();
     }
 
     @Override

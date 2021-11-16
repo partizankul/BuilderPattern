@@ -1,3 +1,5 @@
+package BuilderProgect;
+
 public class BuilderPattern {
     public static void main(String[] args) {
     final Contact contact = new ContactBuilder()
